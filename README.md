@@ -1,4 +1,4 @@
 # descomplicando_terraform
 
 # run terraform in docker
-docker run -it --entrypoint "" -v $(pwd):/app hashicorp/terraform:light sh
+docker run -it --entrypoint "" -v $(pwd):/app -w /app hashicorp/terraform:light sh
